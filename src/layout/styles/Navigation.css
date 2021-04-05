@@ -1,0 +1,16 @@
+.Navigation {
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+  cursor: pointer;
+  margin: 10px 50px;
+  font-size: 0.85em;
+}
+.active {
+  font-weight: 600;
+  border-bottom: 5px solid var(--verde-claro);
+}
