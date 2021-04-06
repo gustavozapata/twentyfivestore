@@ -12,7 +12,13 @@ function Header() {
       />
       <Navigation />
       <div className="shop-img">
-        <img src="/images/shop.svg" alt="Shop icon" />
+        <a
+          href="https://www.etsy.com/uk/shop/TwentyFiveStoreArt"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="/images/shop.svg" alt="Shop icon" />
+        </a>
         {/* <p>Shop</p> */}
       </div>
     </div>
