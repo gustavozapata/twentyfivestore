@@ -6,10 +6,10 @@ function Navigation() {
     <div className="Navigation">
       <nav>
         <ul>
-          <li className="active">Home</li>
-          <li>Products</li>
+          <li className="active">twentyfivestore.com</li>
+          {/* <li>Products</li>
           <li>Team</li>
-          <li>Contact</li>
+          <li>Contact</li> */}
         </ul>
       </nav>
     </div>

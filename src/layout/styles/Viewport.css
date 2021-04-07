@@ -1,5 +1,5 @@
 .Viewport {
-  /* text-align: center; */
+  text-align: center;
 }
 .title h1 {
   font-size: 2.3em;
@@ -27,9 +27,61 @@
   background-color: var(--verde-oscuro);
 }
 .title-description {
-  width: 600px;
+  width: 80%;
   margin: 20px auto;
   font-size: 1.1em;
   line-height: 1.7;
+  text-align: center;
   /* text-align: left; */
+}
+.title-description img {
+  width: 600px;
+  border: 5px solid black;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 50px auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .title-description img {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .title h1 {
+    font-size: 1.8em;
+  }
+  .title {
+    margin: 50px auto;
+    width: 350px;
+  }
+  .title div {
+    width: 200px;
+    height: 7px;
+  }
+  .line-one {
+    margin-right: 40px;
+  }
+  .title-description img {
+    width: 300px;
+  }
+  .logo-img {
+    width: 70px;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+  .Header {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .title-description img {
+    width: 270px;
+  }
 }
