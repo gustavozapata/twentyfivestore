@@ -9,8 +9,27 @@ nav ul li {
   cursor: pointer;
   margin: 10px 50px;
   font-size: 0.85em;
+  font-weight: 500;
 }
 .active {
   font-weight: 600;
-  border-bottom: 5px solid var(--verde-claro);
+  border-bottom: 5px solid var(--verde-oscuro);
+}
+.li-shop {
+  border: 2px solid var(--verde-oscuro);
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.li-shop:hover {
+  background-color: var(--verde-oscuro);
+  color: #fff;
+}
+.li-shop a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.5s;
+}
+.li-shop:hover a {
+  color: #fff;
 }

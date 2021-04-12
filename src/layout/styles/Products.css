@@ -1,0 +1,22 @@
+.Products {
+  /* background-image: url(../../images/empower.png);
+  background-repeat: no-repeat;
+  background-size: contain; */
+  text-align: right;
+  width: 100%;
+  padding: 80px 0;
+  /* height: 100vh; */
+  /* padding: 30px; */
+}
+.Products h3 {
+  font-size: 6em;
+  font-weight: 700;
+  text-align: left;
+  width: 500px;
+  position: absolute;
+  left: 15%;
+  /* border: 1px solid red; */
+}
+.Products img {
+  width: 1200px;
+}

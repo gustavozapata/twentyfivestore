@@ -6,10 +6,18 @@ function Navigation() {
     <div className="Navigation">
       <nav>
         <ul>
-          <li className="active">twentyfivestore.com</li>
-          {/* <li>Products</li>
+          <li className="active">Home</li>
+          <li>Products</li>
           <li>Team</li>
-          <li>Contact</li> */}
+          <li className="li-shop">
+            <a
+              href="https://www.etsy.com/uk/shop/TwentyFiveStoreArt"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Shop
+            </a>
+          </li>
         </ul>
       </nav>
     </div>

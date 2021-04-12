@@ -1,0 +1,19 @@
+.About {
+  background-color: #081a4c;
+  /* height: 100vh; */
+  padding: 1px;
+}
+.About .images {
+  margin-top: 70px;
+  /* padding: 50px 0; */
+}
+.About .images img {
+  width: 450px;
+}
+.About p {
+  color: #fff;
+  width: 75%;
+  margin: 60px auto;
+  max-width: 1000px;
+  font-size: 1.3em;
+}

@@ -1,14 +1,17 @@
 .Viewport {
-  text-align: center;
+  /* text-align: center; */
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
 }
 .title h1 {
-  font-size: 2.3em;
+  font-size: 2em;
   margin-bottom: 1px;
 }
 .title {
   /* position: relative; */
   margin: 50px auto;
-  text-align: center;
+  /* text-align: center; */
   width: 500px;
 }
 .title div {
@@ -27,21 +30,36 @@
   background-color: var(--verde-oscuro);
 }
 .title-description {
+  display: flex;
   width: 80%;
   margin: 20px auto;
-  font-size: 1.1em;
-  line-height: 1.7;
-  text-align: center;
-  /* text-align: left; */
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  /* line-height: 1.7; */
+  /* text-align: center; */
+  text-align: left;
+}
+.title-description p {
+  font-size: 1.3em;
+  font-weight: 500;
 }
 .title-description img {
-  width: 600px;
+  width: 250px;
   border: 5px solid black;
 }
-h3 {
-  font-size: 2em;
-  font-weight: 500;
-  margin: 50px auto;
+.title-description h2 {
+  font-size: 3.7em;
+  text-align: left;
+  margin-top: 0;
+}
+.description {
+  flex-basis: 60%;
+}
+.personality {
+  color: var(--verde-oscuro);
+}
+.dot {
+  color: var(--verde-claro);
 }
 
 @media only screen and (max-width: 750px) {
