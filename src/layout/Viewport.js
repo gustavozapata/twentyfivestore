@@ -25,7 +25,8 @@ function Viewport() {
           </p>
         </div>
         <div className="cuadro">
-          <img src="/images/cuadro.png" alt="Framed print" />
+          <img src="/images/elephant.png" alt="Framed print" />
+          {/* <img src="/images/cuadro.png" alt="Framed print" /> */}
         </div>
       </div>
     </div>

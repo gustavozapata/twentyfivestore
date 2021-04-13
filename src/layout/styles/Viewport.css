@@ -44,8 +44,9 @@
   font-weight: 500;
 }
 .title-description img {
-  width: 250px;
-  border: 5px solid black;
+  /* width: 250px; */
+  /* border: 5px solid black; */
+  width: 300px;
 }
 .title-description h2 {
   font-size: 3.7em;
