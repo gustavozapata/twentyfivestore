@@ -10,6 +10,9 @@
 .About .images img {
   width: 450px;
 }
+.About h2 {
+  color: #fff;
+}
 .About p {
   color: #fff;
   width: 75%;

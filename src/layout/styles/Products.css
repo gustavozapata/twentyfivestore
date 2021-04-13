@@ -4,7 +4,12 @@
   background-size: contain; */
   text-align: right;
   width: 100%;
+  max-width: 1200px;
   padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* border: 1px solid red; */
   /* height: 100vh; */
   /* padding: 30px; */
 }
@@ -13,10 +18,25 @@
   font-weight: 700;
   text-align: left;
   width: 500px;
-  position: absolute;
+  /* position: absolute; */
   left: 15%;
+  z-index: 100;
+  margin-top: 0;
+  text-shadow: 7px 7px 3px #aaa;
   /* border: 1px solid red; */
 }
 .Products img {
-  width: 1200px;
+  width: 450px;
+}
+.twenty-five {
+  width: 400px;
+}
+.twenty-five p {
+  margin-bottom: 1px;
+  font-size: 1.5em;
+  margin-right: 13px;
+  font-weight: 600;
+}
+.twenty-five img {
+  width: 220px;
 }

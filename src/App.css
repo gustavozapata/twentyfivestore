@@ -6,3 +6,14 @@
 .App {
   text-align: center;
 }
+.content {
+  max-width: 1200px;
+  margin: 80px auto;
+}
+.subtitle {
+  text-align: left;
+  font-size: 2.6em;
+  margin: 50px;
+  font-weight: 600;
+  width: 600px;
+}
