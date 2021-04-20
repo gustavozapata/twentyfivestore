@@ -27,6 +27,10 @@ function Viewport() {
         <div className="line-two"></div> */}
       </div>
       <div className="title-description">
+        <div className="cuadro">
+          {/* <img src="/images/elephant.png" alt="Framed print" /> */}
+          <img src="/images/cuadro.png" alt="Framed print" />
+        </div>
         <div className="description">
           <h2>
             Helping people create spaces with{" "}
@@ -37,10 +41,6 @@ function Viewport() {
             Hundreds of satisfied customers have found in our art that extra
             touch they were looking for in their homes!
           </p>
-        </div>
-        <div className="cuadro">
-          {/* <img src="/images/elephant.png" alt="Framed print" /> */}
-          <img src="/images/cuadro.png" alt="Framed print" />
         </div>
       </div>
       {/* <div className="reviews">

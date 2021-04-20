@@ -25,6 +25,12 @@
   text-shadow: 7px 7px 3px #aaa;
   /* border: 1px solid red; */
 }
+.texts {
+  order: 1;
+}
+.empower-img {
+  order: 2;
+}
 .Products img {
   width: 450px;
 }
@@ -39,4 +45,47 @@
 }
 .twenty-five img {
   width: 220px;
+}
+
+@media only screen and (max-width: 1055px) {
+  .Products {
+    justify-content: space-evenly;
+  }
+  .Products .empower-img {
+    width: 300px;
+    height: 400px;
+  }
+  .Products h3 {
+    font-size: 4.7em;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .Products .empower-img {
+    width: 200px;
+    height: 280px;
+  }
+  .Products h3 {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Products {
+    display: block;
+    text-align: center;
+  }
+  .Products h3 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: none;
+    width: 100%;
+  }
+  .twenty-five {
+    width: 100%;
+  }
+  .Products .empower-img {
+    height: 320px;
+    width: 280px;
+  }
 }
