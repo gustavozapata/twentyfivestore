@@ -43,12 +43,12 @@ function Viewport() {
           <img src="/images/cuadro.png" alt="Framed print" />
         </div>
       </div>
-      <div className="reviews">
+      {/* <div className="reviews">
         {reviews.splice(0, 3).map((review) => (
           <p>"{review.message}"</p>
         ))}
         <span>Our Etsy customers ❤️</span>
-      </div>
+      </div> */}
     </div>
   );
 }
