@@ -22,7 +22,7 @@
   left: 15%;
   z-index: 100;
   margin-top: 0;
-  text-shadow: 7px 7px 3px #aaa;
+  text-shadow: 7px 7px 3px rgb(199, 199, 199);
   /* border: 1px solid red; */
 }
 .texts {

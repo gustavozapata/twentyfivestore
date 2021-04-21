@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header";
-import axios from "axios";
+// import axios from "axios";
 import "./styles/Viewport.css";
 
 function Viewport() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    axios
-      .get(
-        `https://openapi.etsy.com/v2/users/jxunnz7u/feedback/from-buyers?api_key=${process.env.REACT_APP_ETSY_API}`
-      )
-      .then((res) => {
-        setReviews(res.data.results);
-        console.log(res);
-      });
+    // axios
+    //   .get(
+    //     `https://openapi.etsy.com/v2/users/jxunnz7u/feedback/from-buyers?api_key=${process.env.REACT_APP_ETSY_API}`
+    //   )
+    //   .then((res) => {
+    //     setReviews(res.data.results);
+    //     console.log(res);
+    //   });
   }, []);
 
   return (
@@ -29,7 +29,7 @@ function Viewport() {
       <div className="title-description">
         <div className="cuadro">
           {/* <img src="/images/elephant.png" alt="Framed print" /> */}
-          <img src="/images/cuadro.png" alt="Framed print" />
+          <img src="/images/athens2.png" alt="Framed print" />
         </div>
         <div className="description">
           <h2>
