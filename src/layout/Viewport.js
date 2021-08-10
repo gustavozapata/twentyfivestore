@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Header from "./Header";
 // import axios from "axios";
 import "./styles/Viewport.css";
 
 function Viewport() {
-  const [reviews, setReviews] = useState([]);
+  // const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
     // axios

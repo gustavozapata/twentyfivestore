@@ -1,21 +1,36 @@
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Subscribe from "./pages/Subscribe";
 import "./App.css";
-import About from "./layout/About";
-import Footer from "./layout/Footer";
-import Products from "./layout/Products";
-import Service from "./layout/Service";
-// import Header from "./layout/Header";
-import Viewport from "./layout/Viewport";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Viewport />
-      <About />
-      <Service />
-      <Products />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        {/* <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+          </ul>
+        </nav> */}
+
+        <Switch>
+          <Route path="/subscribe">
+            <Subscribe />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;
