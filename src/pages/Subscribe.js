@@ -15,7 +15,7 @@ const Subscribe = () => {
       <img id="logo" src="/images/logo_colour.png" alt="" />
       <div className="container">
         <h1>Thank you! 🙌</h1>
-        <p>You have you successfully subscribed to our mailing list ✅</p>
+        <p>You have successfully subscribed to our mailing list ✅</p>
         <p className="twentyfivestore">
           <a href="/">TwentyFiveStore</a>
         </p>
